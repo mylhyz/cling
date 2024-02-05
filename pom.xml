@@ -30,7 +30,7 @@
 
     <modules>
         <module>core</module>
-        <module>demo</module>
+        <!-- <module>demo</module> -->
         <module>workbench</module>
         <module>website</module>
         <module>distribution</module>
@@ -72,8 +72,9 @@
 
     <distributionManagement>
         <repository>
-            <id>4thline.org</id>
-            <url>scpexe://4thline/data/website/docroot/m2/</url>
+            <id>github</id>
+            <name>GitHub [mylhyz] Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/mylhyz/cling</url>
         </repository>
     </distributionManagement>
 
