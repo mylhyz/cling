@@ -1,3 +1,21 @@
+# 本地构建
+
+要求
+- Java8
+- Maven 3.6.x
+- Android SDK (API 15)
+
+本地构建
+```bash
+mvn clean install -DskipTests -Dmaven.javadoc.skip=true
+```
+发布
+```bash
+mvn clean deploy -DskipTests -Dmaven.javadoc.skip=true
+```
+
+---
+
 # Cling EOL: This project is no longer actively maintained, code may be outdated. If you are interested in maintaining and developing this project, comment [here](https://github.com/4thline/cling/issues/244).
 
 ---
